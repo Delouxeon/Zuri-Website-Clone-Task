@@ -1,0 +1,379 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    /* max-width: 100%; */
+    height: 100%;
+}
+
+body{
+    font-size: 1em;
+    font-family: Averta, sans-serif;
+    color: #514949;
+    line-height: 1.5rem;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+p{
+    color: #514949;
+}
+
+a, .links p{
+    text-decoration: none;
+    color: #E7332B;;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eb5850;
+}
+
+
+
+.hero-section {
+    height: auto;
+    background-color: #FFFAFA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+    
+
+
+
+.hero-logo-container {
+    /* border: 1px solid red; */
+    margin-top: 7.45rem;
+    margin-bottom: 5.55rem ;
+}
+
+.hero-content {
+    padding: 0.625rem;
+}
+
+
+.hero-heading {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    margin-bottom: 2rem; 
+}
+
+
+
+
+.button-container{
+    margin-top: 5.75rem;
+    margin-bottom: 3.125rem;
+}
+
+
+.my-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    font-family: Averta;
+    font-size: 1rem;
+}
+
+.red-btn {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+.red-btn:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.red-border-btn{
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.red-border-btn:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
+
+
+.programs-section{
+    overflow: hidden;
+}
+
+.programs-section-content{
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+}
+
+.programs-section-heading{
+    text-align: center;
+    color: #E7332B;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 3.75rem;
+    margin-bottom: 0.5rem
+}
+
+.slogan{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
+}
+
+.card-wrapper{
+    max-width: 1240px !important;
+
+}
+
+.card-wrapper{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card{
+    position: relative;
+    /* border: 1px solid red; */
+    padding: 1.5rem;
+    z-index: 1;
+
+
+}
+
+.card-content{
+    background-color: #FFFAFA;
+    /* border: 1px solid brown; */
+    width: 100%;
+    padding: 3.82rem 2.94rem 5.125rem 2.25rem;
+    text-align: justify-all;
+}
+
+.card img{
+    margin-bottom: 3rem;
+}
+
+
+.card p, .card a {
+    opacity: 0.9;
+    line-height: 1.5rem
+}
+
+.card p{
+    margin-bottom: 2rem;
+}
+
+.cloudinary-1, .cloudinary-2{
+    display: none;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 13.5rem auto 0;
+    text-align: center;
+}
+
+.footer-wrapper {
+    max-width: 1240px !important;
+}
+
+.footer-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.extra-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    margin-bottom: 3.5rem;
+    padding: 1.25rem;
+    /* background-color: #9c2be7; */
+}
+
+.footer-logo{
+    width: 150px;
+    margin-bottom: .9rem;
+
+}
+
+.extra-info h3 {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.contact, .follow-us, .links{
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    margin-bottom: .9rem;
+}
+
+.links p{
+    font-size: 0.875rem;
+}
+
+.contact p,
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.contact-icons img {
+    width: 18px !important;
+    margin-right: 5px;
+}
+
+
+/* footer hr{
+    max-width: 1240px !important;
+} */
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+    margin: 1.25rem;
+    /* width: 100%; */
+}
+
+.copyright{
+    max-width: 1240px !important;
+}
+
+.copyright p {
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #514949;
+    padding-bottom: 6rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .hero-logo-container {
+            /* border: 1px solid red; */
+            margin-top: 5rem;
+            margin-bottom: 4rem;
+        }
+    
+    .hero-logo-container {
+        margin-top: 4.3rem;
+        margin-bottom: 4.3rem;
+    }
+
+    .hero-content {
+        max-width: 42rem;
+        padding: 1.5rem;
+    }
+
+
+    .hero-heading {
+        font-size: 2rem;
+        margin-bottom: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .button-container {
+        margin-top: 5.7rem;
+        margin-bottom: 3.15rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .red-btn {
+        margin-right: 1.5rem;
+    }
+
+    .footer-logo {
+        width: unset;
+        /* margin-bottom: .9rem; */
+
+    }
+
+    .extra-info {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        font-size: 1.5rem;
+        margin-top: 1.3rem;
+        /* background-color: aquamarine; */
+
+    }
+
+
+    .extra-info h3 {
+        font-size: 1rem;
+        margin-top: 0;
+        align-items: flex-start;
+    }
+}
+
+ @media (min-width: 990px) {
+
+    .card-wrapper {
+            flex-direction: row;
+    }
+
+    .hero-section {
+        height: auto;
+        height: 750px;
+    }
+
+} 
+
+@media (min-width:1200px) {
+
+    .cloudinary-1,.cloudinary-2 {
+        display: block;
+    }
+
+    .cloudinary-1 {
+        width: 100%;
+        position: absolute;
+        left: -120px;
+        top: -75px;
+        z-index: -1;
+
+    }
+
+    .cloudinary-2 {
+        width: 90%;
+        position: absolute;
+        right: -120px;
+        top: -75px;
+        z-index: -1;
+    }
+
+}
+
